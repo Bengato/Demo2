@@ -10,7 +10,7 @@ namespace git2Demo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("CALCULATE FACTORIAL:\n");
+            Console.WriteLine("CALCULATE FACTORIAL:");
             int num2 = int.Parse(Console.ReadLine());
             int i = 2,factorial=1;
             int temp = num2;
@@ -19,7 +19,7 @@ namespace git2Demo
                 factorial *= i;
                 i++;
             }
-            Console.WriteLine("\n{0} 's Factorial is:\t{1}.\n",num2,factorial);
+            Console.WriteLine("\n{0}!={1}.\n",num2,factorial);
         }
     }
 }
