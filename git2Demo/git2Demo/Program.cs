@@ -10,6 +10,7 @@ namespace git2Demo
     {
         static void Main(string[] args)
         {
+            int num1 = 5;
         }
     }
 }
