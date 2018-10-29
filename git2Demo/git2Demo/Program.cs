@@ -12,16 +12,14 @@ namespace git2Demo
         {
             Console.WriteLine("CALCULATE FACTORIAL:\n");
             int num2 = int.Parse(Console.ReadLine());
-            int i = 1,factorial=num2;
+            int i = 2,factorial=1;
             int temp = num2;
-            while (i <= temp)
+            while (i <= num2)
             {
-                Console.WriteLine();
                 factorial *= i;
-                Console.WriteLine("{0}\t*\t{1}\t=\t{2}",num2,i,factorial);
-                num2 *= i;
                 i++;
             }
+            Console.WriteLine("\n{0} 's Factorial is:\t{1}.\n",num2,factorial);
         }
     }
 }
