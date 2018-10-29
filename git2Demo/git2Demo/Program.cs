@@ -11,6 +11,7 @@ namespace git2Demo
         static void Main(string[] args)
         {
             int num1 = 5;
+            Console.WriteLine("YO! your 1st var equals "+num1+"\n");
         }
     }
 }
