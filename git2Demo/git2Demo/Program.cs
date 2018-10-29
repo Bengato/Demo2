@@ -13,6 +13,8 @@ namespace git2Demo
             int num1 = 5;
             Console.WriteLine("Hi! your 1st var equals "+num1+".\n");
             Console.WriteLine("Another check");
+            Console.WriteLine("Another check");
+
         }
     }
 }
